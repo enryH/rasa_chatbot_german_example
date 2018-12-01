@@ -1,0 +1,67 @@
+
+User-Name in Database: UCYUL7R4G
+
+2018-11-08 17:57:58 - action_listen
+
+2018-11-08 17:58:00 *greet
+2018-11-08 17:58:00 Hey
+2018-11-08 17:58:01 - utter_greet
+2018-11-08 17:58:01 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-08 17:58:01 - action_listen
+
+2018-11-08 17:58:32 *inform
+2018-11-08 17:58:32 mein schönes rotes [Fahrrad](object:fahrrad) wurde mir heute morgen [geklaut](case:Diebstahl)!
+2018-11-08 17:58:32 slot{case: Diebstahl}
+2018-11-08 17:58:32 slot{object: fahrrad}
+2018-11-08 17:58:32 - utter_proceed
+2018-11-08 17:58:32 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-08 17:58:32 - action_listen
+
+2018-11-08 17:58:48 *confirm
+2018-11-08 17:58:48 Das können wir gerne gemeinsam tun.
+2018-11-08 17:58:48 - utter_ask_no
+2018-11-08 17:58:48 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-08 17:58:48 - action_listen
+
+2018-11-08 17:58:55 *inform
+2018-11-08 17:58:55 [68308](policy_no:68308)
+2018-11-08 17:58:55 slot{policy_no: 68308}
+2018-11-08 17:58:56 - utter_ask_birthday
+2018-11-08 17:58:56 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-08 17:58:56 - action_listen
+
+2018-11-08 17:59:06 *inform
+2018-11-08 17:59:06 [3.5.1989](birthdate:3.5.1989)
+2018-11-08 17:59:06 slot{birthdate: 3.5.1989}
+2018-11-08 17:59:07 - action_check_membership
+2018-11-08 17:59:07 slot{policy_no: 68308}
+2018-11-08 17:59:07 slot{policy: Hausratsversicherung}
+2018-11-08 17:59:07 Ich konnte ihre Police finden unter der ID 68308 finden
+2018-11-08 17:59:07 - utter_ask_location
+2018-11-08 17:59:07 Wo ist das passiert?
+2018-11-08 17:59:07 - action_listen
+
+2018-11-08 17:59:17 *inform
+2018-11-08 17:59:17 Bei mir [zuhause](location:zuhause)
+2018-11-08 17:59:17 slot{location: zuhause}
+2018-11-08 17:59:19 - action_finalise
+2018-11-08 17:59:19 
+		Ich fasse zusammen: Es geht um einen Diebstahl. Es betrifft ihr fahrrad. Es ist zuhause passiert. Ihre Versicherungsnummer lautet 68308 und sie wurdem am 3.5.1989
+		geboren. 
+ Wir werden ihr Anliegen bearbeiten und uns dann per E-Mail oder Post bei Ihnen melden. 
+		War das alles?
+2018-11-08 17:59:19 - action_listen
+
+2018-11-08 17:59:49 *deny
+2018-11-08 17:59:49 ja danke
+2018-11-08 17:59:49 - utter_goodbye
+2018-11-08 17:59:49 Es hat mich gefreut. Bis bald.
+2018-11-08 17:59:49 - action_restart
+2018-11-08 17:59:49 Restarted
+2018-11-08 17:59:49 - action_listen
+
+2018-11-09 11:42:01 *greet
+2018-11-09 11:42:01 Hi
+2018-11-09 11:42:02 - utter_greet
+2018-11-09 11:42:02 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-09 11:42:02 - action_listen

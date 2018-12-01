@@ -1,0 +1,60 @@
+{
+    "intent_errors": [
+        {
+            "text": "Tschüss",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.307791969405677
+            }
+        },
+        {
+            "text": "bye",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "confirm",
+                "confidence": 0.3777545202268693
+            }
+        },
+        {
+            "text": "goodbye",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.44119138975376043
+            }
+        },
+        {
+            "text": "bye bye",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "confirm",
+                "confidence": 0.4139602827158306
+            }
+        },
+        {
+            "text": "Auf wiedersehen. Vielen Dank für die Hilfe.",
+            "intent": "goodbye",
+            "intent_prediction": {
+                "name": "confirm",
+                "confidence": 0.2552532669305578
+            }
+        },
+        {
+            "text": "moment",
+            "intent": "wait",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.38823699351865143
+            }
+        },
+        {
+            "text": "Einen Moment bitte.",
+            "intent": "wait",
+            "intent_prediction": {
+                "name": "inform",
+                "confidence": 0.3106233497566969
+            }
+        }
+    ]
+}

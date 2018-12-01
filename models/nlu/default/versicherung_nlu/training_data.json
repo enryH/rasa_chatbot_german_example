@@ -1,0 +1,2306 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tschüss"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Hoy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Tag"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Hallo. Mein Fahrrad wurde gestohlen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Vor der Haustür",
+            "entity": "location"
+          }
+        ],
+        "text": "Vor der Haustür."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Mir wurde mein Fahrrad geklaut"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 17,
+            "end": 34,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Wie hoch ist die Selbstbeteiligung?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 45,
+            "value": "Hausratsversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Ich glaube ich habe eine Hausratsversicherung bei Ihnen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 33,
+            "value": "Fahrradversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Ich habe eine Fahrradversicherung."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich möchte melden, dass ein Fahrrad gestohlen wurde."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 42,
+            "end": 50,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich möche gerne kurz den Diebstahl meines Fahrrads melden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Velos",
+            "entity": "object"
+          }
+        ],
+        "text": "Ich möchte den Verlust meines Velos melden."
+      },
+      {
+        "intent": "mood_unhappy",
+        "entities": [
+          {
+            "start": 60,
+            "end": 77,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich bin sehr verärgert über meine Prämienerhöhung wegen des Fahrraddiebstahls! Ich möchte kündigen."
+      },
+      {
+        "intent": "greet",
+        "text": "gruezi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 45,
+            "end": 50,
+            "value": "13457",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "Ich glaube meine Versicherungsnummer ist die 13457."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "10.8.1987",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 10.8.1987 geboren"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 41,
+            "value": "10. August 2018",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Mein Geburtsdatum ist der 10. August 2018"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "10.10.1980",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 10.10.1980 geboren."
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Wie viel muss ich selbst zahlen?"
+      },
+      {
+        "intent": "mood_unhappy",
+        "entities": [
+          {
+            "start": 89,
+            "end": 98,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 106,
+            "end": 115,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Eine sofortige Prämienerhöhung nach einem Schadensfall ist unverschämt. Da hätte ich den Diebstahl meines Fahrrades auch nicht melden müssen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 37,
+            "value": "12345",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "Meine Vesichertennummer ist die 12345."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 40,
+            "value": "zuhause",
+            "entity": "location"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Mein Fahrrad wurde direkt vor meiner Tür geklaut."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "Mein Fahrrad wurde mir zuhause gestohlen."
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Wie hoch ist mein Anteil an den entstandenen Kosten?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 36,
+            "value": "Fahrradversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Ich besitze eine Fahrradversicherung."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 44,
+            "value": "Hausratsversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Ich bin im Besitz einer Hausratsversicherung."
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Tag"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 33,
+            "end": 42,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Mir ist heute Nacht mein Fahrrad gestohlen worden und ich möchte den Schaden melden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 72,
+            "end": 77,
+            "value": "34984",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "Okay. Ich habe meine Versicherungsnummer gerade nachgesehen. Sie lautet 34984."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 40,
+            "end": 54,
+            "value": "zuhause",
+            "entity": "location"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "Es wurde mir bei mir zuhause gestohlen. Direkt bei mir...unglaublich"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 60,
+            "end": 67,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 14,
+            "end": 34,
+            "value": "Hausratsversicherung",
+            "entity": "policy"
+          },
+          {
+            "start": 75,
+            "end": 84,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Ich habe eine Hausratsversicherung bei Ihnen und möchte den Verlust meines Fahrrades melden."
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 16,
+            "end": 33,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Und mit welcher Selbstbeteiligung habe ich zu rechnen?"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "Das ist doch nervig. Wir kommen hier nicht weiter."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "30.04.1956",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 30.04.1956."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 46,
+            "value": "Fahrradversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Nein, ich besitze nur eine Fahrradversicherung bei ihnen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Mir wurde gestern mein Fahrrad gestohlen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 64,
+            "end": 71,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 56,
+            "end": 63,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Ich muss ihnen leider mitteilen, dass letzte Woche mein Fahrrad geklaut wurde."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 34,
+            "value": "03. August 54",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Geboren wurde ich am 03. August 54"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "45034",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "Das ist die 45034."
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "Was soll das hier. Das ist doch Mist."
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 27,
+            "end": 44,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Mit wie viel muss ich mich selber beteiligen am Schaden?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 34,
+            "value": "1. Januar. 1955",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Mein Geburtsdatum: 1. Januar. 1955."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 33,
+            "end": 42,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 74,
+            "end": 88,
+            "value": "zuhause",
+            "entity": "location"
+          },
+          {
+            "start": 89,
+            "end": 96,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich möchten den Diebstahl meines Fahrrades mitteilen. Es wurde mir direkt vor meiner Tür geklaut."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Mein Fahrrad ist weg. Ich möchte gerne meine Versicherung wahrnehmen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Mein Fahrrad wurde mir gestohlen und ich möchte es gerne ersetzt haben."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "23.05.1988",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Mein Geburtsdatum ist der 23.05.1988."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "19546",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "Meine Nummer ist die 19546"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 36,
+            "value": "Fahrradversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Ich besitze eine Fahrradversicherung."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 35,
+            "value": "Fahrradversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Ich sollte eine Fahrradversicherung bei ihnen haben."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 34,
+            "value": "Hausratsversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Ich habe eine Hausratsversicherung abgeschlossen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "35678",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "Meine Versichertennummer ist die 35678"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Auf wiedersehen. Vielen Dank für die Hilfe."
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "So ein Scheiss. Ich möchte mit einem Menschen sprechen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 68,
+            "end": 75,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 76,
+            "end": 89,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich bin Opfer eines Diebstahls geworden. Seit heute morgen ist mein Fahrrad nicht mehr da."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 70,
+            "end": 75,
+            "value": "13411",
+            "entity": "policy_no"
+          },
+          {
+            "start": 21,
+            "end": 31,
+            "value": "05.03.1983",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde geboren am 05.03.1983 und meine Versicherungsnummer ist die 13411."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "bestohlen",
+            "entity": "case"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Ich wurde bestohlen. Mein Fahrrad ist weg."
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 23,
+            "end": 38,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Mit wie viel werde ich mich beteiligen müssen?"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "Selbsbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Wie hoch ist der Eigenanteil an dem Schaden?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 56,
+            "end": 65,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Meine schönes, neues Fahrrad wurde mir doch tatsächlich gestohlen. Wie melde ich das?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 54,
+            "end": 68,
+            "value": "zuhause",
+            "entity": "location"
+          },
+          {
+            "start": 84,
+            "end": 91,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Es ist unverschämt, aber mein neues Fahrrad wurde mir direkt bei mir aus dem Keller geklaut."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 100,
+            "end": 109,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Mein neues Fahrrad ist gestohlen worden. Zum Glück habe ich es versichert bei ihnen und möchten den Diebstahl melden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "34569",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "Die Nummer lautet 34569"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 61,
+            "end": 66,
+            "value": "34119",
+            "entity": "policy_no"
+          },
+          {
+            "start": 6,
+            "end": 25,
+            "value": "Fahrradversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Meine Fahrradversicherung läuft unter der Versichertennummer 34119."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "3. November 1981",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Geboren bin ich am 3. November 1981 worden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "16.6.1976",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Mein Geburtsdatum ist der 16.6.1976"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 34,
+            "value": "Hausratsversicherung",
+            "entity": "policy"
+          }
+        ],
+        "text": "Ich habe eine Hausratsversicherung."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "43299",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "Das ist die 43299."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "1-4-1984",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 1-4-1984 geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "30-10-1977",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 30-10-1977 "
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "3-04-1987",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Das war am 3-04-1987"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "5-5-77",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "am 5-5-77"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "3 4 1984",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Das war am 3 4 1984"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "3/4/1987",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 3/4/1987 geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "13/7/1999",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich bin am 13/7/1999 geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "22/11/1988",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 22/11/1988"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "3/6/1978",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Geboren bin ich am 3/6/1978 worden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "12/12/1967",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Da war am 12/12/1967"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "1. August 1956",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 1. August 1956 geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "value": "13. Juli 1955",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "am 13. Juli 1955 bin ich geboren worden"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "1. Jan 1945",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Geboren bin ich am 1. Jan 1945."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 18,
+            "value": "4. Februar 1967",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 4. Februar 1967"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "3. Feb 2000",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Geboren bin ich am 3. Feb 2000 worden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "5. März 56",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 5. März 56 geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 25,
+            "value": "14 März 1944",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 14 März 1944 geboren"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "18 April 73",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 18 April 73 wurde ich geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "4. Mai 38",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 4. Mai 38 geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "7. Juni 2001",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 7. Juni 2001"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "6. Juli 75",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Das war am 6. Juli 75"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "value": "10 August 1982",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 10 August 1982"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "5. Sep. 1983",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich bin am 5. Sep. 1983 geboren worden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "5.September 83",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 5.September 83 geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 41,
+            "value": "5. September 1983",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Mein Geburtstag ist der 5. September 1983."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "1. Okt.  1987",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich bin am 1. Okt.  1987 geboren worden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "9. Okt. 1988",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Geburtstag: 9. Okt. 1988"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 41,
+            "value": "7. Oktober 1978",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Mein Geburtsdatum ist der 7. Oktober 1978"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 26,
+            "value": "8. Oktober 89",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 8. Oktober 89 geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "17. Sep. 82",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Mein Geburtstag ist am 17. Sep. 82"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 30,
+            "value": "18. November 1968",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Ich wurde am 18. November 1968 geboren."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 37,
+            "value": "17. Nov. 1984",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Mein Geburtstag ist der 17. Nov. 1984"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 34,
+            "value": "31. Dez. 1962",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Geboren wurde ich am 31. Dez. 1962"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 17,
+            "value": "4. Dezember 83",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 4. Dezember 83"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 20,
+            "value": "12. Dezember 1976",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 12. Dezember 1976."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "Es ist direkt vor meiner Tür passiert"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "Direkt vor meiner Hausür."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 44,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "Es stand draussen direkt bei mir vor der Tür an einen Pfosten angeschlossen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 33,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "Es ist direkt bei mir vor der Tür passiert."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "Das war bei mir zuhause, direkt vor der Tür"
+      },
+      {
+        "intent": "confirm",
+        "text": "Gerne können wir das machen"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja gerne"
+      },
+      {
+        "intent": "confirm",
+        "text": "Das können wir gerne machen."
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja wieso nicht."
+      },
+      {
+        "intent": "confirm",
+        "text": "jup. los gehts"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja sicher"
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja"
+      },
+      {
+        "intent": "confirm",
+        "text": "Nein, das können wir gerne gemeinsam machen."
+      },
+      {
+        "intent": "confirm",
+        "text": "Das können wir gerne gemeinsam erledigen."
+      },
+      {
+        "intent": "confirm",
+        "text": "Auf gehts"
+      },
+      {
+        "intent": "deny",
+        "text": "Ich möchte lieber telefonieren"
+      },
+      {
+        "intent": "deny",
+        "text": "Ich möchte mich einem Menschen sprechen"
+      },
+      {
+        "intent": "deny",
+        "text": "Ja lieber telefonieren"
+      },
+      {
+        "intent": "deny",
+        "text": "Nein, lieber telefonieren."
+      },
+      {
+        "intent": "deny",
+        "text": "Nein, ich habe sie leider nicht."
+      },
+      {
+        "intent": "deny",
+        "text": "Puh. Keine Ahnung"
+      },
+      {
+        "intent": "deny",
+        "text": "Die weiss ich leider gerade nicht."
+      },
+      {
+        "intent": "deny",
+        "text": "Die habe ich nicht zur Hand"
+      },
+      {
+        "intent": "deny",
+        "text": "Die kenne ich nicht."
+      },
+      {
+        "intent": "deny",
+        "text": "Puh. Gute Frage. Ich weiss nicht wo ich sie habe oder finden kann."
+      },
+      {
+        "intent": "deny",
+        "text": "Ich habe keinen blassen schimmer"
+      },
+      {
+        "intent": "other",
+        "text": "Du bist ein Bot? Wieso das denn?"
+      },
+      {
+        "intent": "other",
+        "text": "Und was machst du den ganzen Tag?"
+      },
+      {
+        "intent": "other",
+        "text": "Das ist ja verrückt. Ich spreche mit einer Maschine?"
+      },
+      {
+        "intent": "other",
+        "text": "Ich bin betrunken"
+      },
+      {
+        "intent": "other",
+        "text": "Erinnerst du dich als wir zum ersten mal miteinander geschrieben haben?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich möchte den Diebstahl meines Fahrrads melden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Den Diebstahl meines Fahrrades"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Es geht um den Diebstahl meines Fahrrads."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Ich möchte den Diebstahl meines Fahrrades mitteilen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich möchte einen Diebstahl melden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 37,
+            "end": 45,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Ich würde gerne den Diebstahl meines Fahrrads."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Kann ich hier den Diebstahl meines Fahrrads melden?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich will den Diebstahl meines Fahrrads melden."
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja das wars. Vielen Dank und bis bald."
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja sicher können wir das probieren."
+      },
+      {
+        "intent": "other",
+        "text": "Wie du bist kein Mensch? "
+      },
+      {
+        "intent": "confirm",
+        "text": "Ja ja. Ist ja gut... machen wir weiter."
+      },
+      {
+        "intent": "confirm",
+        "text": "ja das wäre es gewesen. merci"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "43569",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "43569"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "58274",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "58274"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "30000",
+            "entity": "policy_no"
+          }
+        ],
+        "text": "30000"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "3.5.1987",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "3.5.1987"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "4. März 2018",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "4. März 2018"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "3. August 1977",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "3. August 1977"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo Beat!"
+      },
+      {
+        "intent": "greet",
+        "text": "Guten Morgen"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Mein Fahrad wurde gestern gestohlen."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Mein Farhrad wurde gestohlen"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 25,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "Direkt vor meiner Haustür. mega dreist...."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "4.5.1999",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "4.5.1999"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "4. juni 2001",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "4. juni 2001"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "Bei mir zuhause"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "zuhause",
+            "entity": "location"
+          }
+        ],
+        "text": "zuhause"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Fahrrad",
+            "entity": "object"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "zuhause",
+            "entity": "location"
+          },
+          {
+            "start": 43,
+            "end": 50,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Mein Velo wurde mir direkt bei mir zuhause geklaut"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Diebstahl",
+            "entity": "case"
+          },
+          {
+            "start": 31,
+            "end": 38,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Ich bin bestohlen worden. Mein Fahrrad ist weg."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 18,
+            "value": "3. Oktober 1987",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "Am 3. Oktober 1987."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "8.11.1965",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "8.11.1965"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Fahrrad",
+            "entity": "object"
+          }
+        ],
+        "text": "Mein farrad wurde geklaut, verdammt!!"
+      },
+      {
+        "intent": "confirm",
+        "text": "gemeinsam"
+      },
+      {
+        "intent": "other",
+        "text": "wtf?!?! dude"
+      },
+      {
+        "intent": "confirm",
+        "text": "Vielen Dank!"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "4. März 1990",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "4. März 1990"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "15. Juni 1978",
+            "entity": "birthdate"
+          }
+        ],
+        "text": "15. Juni 1978"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich muss leider einen Fahrraddiebstahl melden."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 37,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich bin Opfer eines Fahrraddiebstahls geworden. Was muss ich tun?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 33,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich möchte einen Fahrraddiebstahl melden. Es ist heute passiert."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Diebstahl",
+            "entity": "case"
+          }
+        ],
+        "text": "Ich möchte ihnen einen Fahrraddiebstahl anzeigen"
+      },
+      {
+        "intent": "confirm",
+        "text": "ok"
+      },
+      {
+        "intent": "wait",
+        "text": "moment"
+      },
+      {
+        "intent": "wait",
+        "text": "Einen Moment bitte."
+      },
+      {
+        "intent": "wait",
+        "text": "Ich suche. einen moment"
+      },
+      {
+        "intent": "wait",
+        "text": "nagut. ich suche"
+      },
+      {
+        "intent": "confirm",
+        "text": "gerne"
+      },
+      {
+        "intent": "confirm",
+        "text": "jo"
+      },
+      {
+        "intent": "confirm",
+        "text": "jap"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Was wird mein Anteil an dem entstanden Schaden sein?"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 29,
+            "end": 46,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Werde ich mich an den Kosten selber beteiligen müssen?"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Werde ich mich beteiligen müssen an den Kosten?"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 15,
+            "end": 39,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Werde ich mich an den Kosten beteiligen müssen?"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 14,
+            "end": 45,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Wie hoch wird meine Beteiligung an den Kosten sein?"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 9,
+            "end": 40,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Was wird meine Beteiligung an den Kosten sein?"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 25,
+            "end": 49,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Wie viel werde mich mich an den Kosten beteiligen müssen?"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 36,
+            "end": 53,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Können sie mir noch die Höhe meiner Selbstbeteiligung nennen?"
+      },
+      {
+        "intent": "question",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Selbstbeteiligung",
+            "entity": "policy_detail"
+          }
+        ],
+        "text": "Was wird mein Eigenanteil an den Kosten sein?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 38,
+            "value": "Langstrasse 4 in Zürich",
+            "entity": "location"
+          }
+        ],
+        "text": "Was war in der Langstrasse 4 in Zürich."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 43,
+            "value": "Wiesenstr. 13, 9482 Zürich",
+            "entity": "location"
+          }
+        ],
+        "text": "Ich hatte es vor Wiesenstr. 13, 9482 Zürich abgestellt."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 65,
+            "value": "In der Pferdewiese 8, 8000 Zürich",
+            "entity": "location"
+          }
+        ],
+        "text": "Das war bei mir auf der Arbeit: In der Pferdewiese 8, 8000 Zürich."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 31,
+            "value": "Bahnhof in Schlieren",
+            "entity": "location"
+          }
+        ],
+        "text": "Das war am Bahnhof in Schlieren. "
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "Hauptbahnhof, Zürich",
+            "entity": "location"
+          }
+        ],
+        "text": "Am HB in Zürich"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "Hauptbahnhof, Zürich",
+            "entity": "location"
+          }
+        ],
+        "text": "Am HB in Zürich auf der Seite Richtung Innenstadt"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 30,
+            "value": "Hauptbahnhof, Zürich",
+            "entity": "location"
+          }
+        ],
+        "text": "Direkt am Hauptbahnhof, Zürich."
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 43,
+            "value": "Hauptbahnhof, Zürich",
+            "entity": "location"
+          }
+        ],
+        "text": "Das war direkt vor dem Hauptbahnhof, Zürich."
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "Diebstahl",
+        "pattern": "[Dd]iebstahl"
+      },
+      {
+        "name": "Fahrrad",
+        "pattern": "[fF]ahrrad"
+      },
+      {
+        "name": "Y",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "birthday",
+        "pattern": "([1-9]|1[0-9]|2[0-9]|3[0-1])(.|-|/)([1-9]|0[1-9]|1[0-2])(.|-|)(20|19|)[0-9][0-9]"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

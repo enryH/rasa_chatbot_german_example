@@ -1,0 +1,16 @@
+.git/
+.vscode/
+__pycache__/
+data/
+Figures/
+results/
+reveal.js/
+.dockerignore
+.gitignore
+database_parse.py
+ngrok.exe
+nlp_regex_testing.py
+nlp_spacy.py
+setup.py
+train_online*
+utils_database.py

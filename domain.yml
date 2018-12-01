@@ -1,0 +1,102 @@
+intents:
+ - greet
+ - goodbye
+ - inform
+ - question
+ - mood_unhappy
+ - deny
+ - confirm
+ - other
+ - wait
+
+entities:
+ - location
+ - birthdate
+ - case
+ - object
+ - policy
+ - policy_detail
+ - policy_no
+
+slots:
+  location:
+    type: text
+  birthdate:
+    type: text
+  case:
+    type: text
+  object:
+    type: text
+  policy:
+    type: text
+  policy_detail:
+    type: text
+  policy_no:
+    type: text 
+
+
+
+templates:
+  utter_greet:
+    - 'Hallo, herzlich willkommen bei Ihrer Versicherung. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)'
+  utter_goodbye:
+    - 'Es hat mich gefreut. Bis bald.'
+    - 'Alles Gute und auf Wiederhören.'
+  utter_affirm:
+    - 'Okay'
+  utter_ask_location:
+    - 'Wo ist das passiert?'
+  utter_ask_birthday:
+    - 'Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?'
+  utter_ask_no:
+    - 'Super. Wie lautet ihre fünfstellige Versicherungsnummer?'
+  utter_ask_again:
+    - 'Sorry, aber ich brauche diese Information um weitermachen zu können.'
+  utter_proceed:
+    - 'Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?'
+  utter_apology:
+    - 'Es tut mir Leid, dass wir sie verärgert haben. Gerne verweise ich sie an einen unserer Mitarbeiter am Telefon.'
+  utter_connect:
+    - 'Bitte rufen sie unter 0800-3000-3003 an. Ihr Access-Token ist XYZ.'
+  utter_ask:
+    - 'Womit genau kann ich ihnen helfen?'
+    - 'Und worum geht es genau?'
+  # utter_finalise:
+  #   - 'Danke soweit. Wir werden ihr Anliegen bearbeiten und uns dann per E-Mail oder Post bei Ihnen melden. War das alles?'
+  utter_url:
+    - 'Die Policy-Detail kannst du unter einsehen: www.policy_of_customer.ch (to adapt dependent on policy-key-word)'
+  utter_chitchat:
+    - 'Ja... und?'
+    - 'Schön. Wollen wir weitermachen?'
+    - 'Ich helfe die nur beim aufnehmen von Versicherungsschäden. Also?'
+  utter_ask_object:
+    - 'Um welchen Gegenstand handelt es sich?'
+  utter_selbstbeteiligung:
+    - 'Ihre Selbstbeteiligung beträgt 150 CHF.'
+  utter_skip:
+    - 'Ich habe es leider nicht verstanden. Mir machen ohne diese Information weiter.' 
+  utter_default:
+    - 'Es tut mir Leid, aber das habe ich leider nicht verstanden. Können sie es noch einmal in anderen Worten wiederholen?'
+  utter_out_of_scope:
+    - 'Ich fürchte, dass ich für ihr Anliegen nicht vorprogrammiert wurde. Kann ich ihnen mit etwas anderem helfen?'
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_affirm
+ - utter_chitchat
+ - utter_ask_location
+ - utter_ask_object
+ - utter_ask_birthday
+ - utter_ask_no
+ - utter_ask_again
+ - utter_proceed
+ - utter_apology
+ - utter_connect
+ - utter_ask
+ - action_finalise
+ - utter_url
+ - utter_selbstbeteiligung
+ - action_check_membership
+ - utter_skip
+ - utter_out_of_scope

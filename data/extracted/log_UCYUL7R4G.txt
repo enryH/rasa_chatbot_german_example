@@ -1,0 +1,744 @@
+
+User-Name in Database: UCYUL7R4G
+
+2018-11-08 17:57:58 - action_listen
+
+2018-11-08 17:58:00 *greet
+2018-11-08 17:58:00 Hey
+2018-11-08 17:58:01 - utter_greet
+2018-11-08 17:58:01 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-08 17:58:01 - action_listen
+
+2018-11-08 17:58:32 *inform
+2018-11-08 17:58:32 mein schönes rotes [Fahrrad](object:fahrrad) wurde mir heute morgen [geklaut](case:Diebstahl)!
+2018-11-08 17:58:32 slot{case: Diebstahl}
+2018-11-08 17:58:32 slot{object: fahrrad}
+2018-11-08 17:58:32 - utter_proceed
+2018-11-08 17:58:32 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-08 17:58:32 - action_listen
+
+2018-11-08 17:58:48 *confirm
+2018-11-08 17:58:48 Das können wir gerne gemeinsam tun.
+2018-11-08 17:58:48 - utter_ask_no
+2018-11-08 17:58:48 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-08 17:58:48 - action_listen
+
+2018-11-08 17:58:55 *inform
+2018-11-08 17:58:55 [68308](policy_no:68308)
+2018-11-08 17:58:55 slot{policy_no: 68308}
+2018-11-08 17:58:56 - utter_ask_birthday
+2018-11-08 17:58:56 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-08 17:58:56 - action_listen
+
+2018-11-08 17:59:06 *inform
+2018-11-08 17:59:06 [3.5.1989](birthdate:3.5.1989)
+2018-11-08 17:59:06 slot{birthdate: 3.5.1989}
+2018-11-08 17:59:07 - action_check_membership
+2018-11-08 17:59:07 slot{policy_no: 68308}
+2018-11-08 17:59:07 slot{policy: Hausratsversicherung}
+2018-11-08 17:59:07 Ich konnte ihre Police finden unter der ID 68308 finden
+2018-11-08 17:59:07 - utter_ask_location
+2018-11-08 17:59:07 Wo ist das passiert?
+2018-11-08 17:59:07 - action_listen
+
+2018-11-08 17:59:17 *inform
+2018-11-08 17:59:17 Bei mir [zuhause](location:zuhause)
+2018-11-08 17:59:17 slot{location: zuhause}
+2018-11-08 17:59:19 - action_finalise
+2018-11-08 17:59:19 
+		Ich fasse zusammen: Es geht um einen Diebstahl. Es betrifft ihr fahrrad. Es ist zuhause passiert. Ihre Versicherungsnummer lautet 68308 und sie wurdem am 3.5.1989
+		geboren. 
+ Wir werden ihr Anliegen bearbeiten und uns dann per E-Mail oder Post bei Ihnen melden. 
+		War das alles?
+2018-11-08 17:59:19 - action_listen
+
+2018-11-08 17:59:49 *deny
+2018-11-08 17:59:49 ja danke
+2018-11-08 17:59:49 - utter_goodbye
+2018-11-08 17:59:49 Es hat mich gefreut. Bis bald.
+2018-11-08 17:59:49 - action_restart
+2018-11-08 17:59:49 Restarted
+2018-11-08 17:59:49 - action_listen
+
+2018-11-09 11:42:01 *greet
+2018-11-09 11:42:01 Hi
+2018-11-09 11:42:02 - utter_greet
+2018-11-09 11:42:02 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-09 11:42:02 - action_listen
+
+2018-11-16 16:15:30 *greet
+2018-11-16 16:15:30 Hey
+2018-11-16 16:15:31 - utter_ask
+2018-11-16 16:15:31 Und worum geht es genau?
+2018-11-16 16:15:31 - action_listen
+
+2018-11-16 16:16:10 *greet
+2018-11-16 16:16:10 Hey
+2018-11-16 16:16:11 - utter_ask
+2018-11-16 16:16:11 Und worum geht es genau?
+2018-11-16 16:16:11 - action_listen
+
+2018-11-16 16:17:00 *restart
+2018-11-16 16:17:00 /restart
+2018-11-16 16:17:00 - action_restart
+2018-11-16 16:17:00 Restarted
+2018-11-16 16:17:00 - action_listen
+
+2018-11-16 16:17:05 *greet
+2018-11-16 16:17:05 Hey
+2018-11-16 16:17:06 - utter_greet
+2018-11-16 16:17:06 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-16 16:17:06 - action_listen
+
+2018-11-16 16:17:14 *inform
+2018-11-16 16:17:14 Mein [Fahrrad](object:fahrrad) wurde [gestohlen](case:Diebstahl)
+2018-11-16 16:17:14 slot{case: Diebstahl}
+2018-11-16 16:17:14 slot{object: fahrrad}
+2018-11-16 16:17:14 - utter_proceed
+2018-11-16 16:17:14 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-16 16:17:14 - action_listen
+
+2018-11-16 16:17:23 *confirm
+2018-11-16 16:17:23 gerne zusammen
+2018-11-16 16:17:23 - utter_ask_no
+2018-11-16 16:17:23 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-16 16:17:23 - action_listen
+
+2018-11-16 16:17:56 *inform
+2018-11-16 16:17:56 [54548](policy_no:54548)
+2018-11-16 16:17:56 slot{policy_no: 54548}
+2018-11-16 16:17:57 - utter_ask_birthday
+2018-11-16 16:17:57 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-16 16:17:57 - action_listen
+
+2018-11-16 16:18:02 *inform
+2018-11-16 16:18:02 [3.5.1877](birthdate:3.5.1877)
+2018-11-16 16:18:02 slot{birthdate: 3.5.1877}
+2018-11-16 16:18:03 - action_check_membership
+2018-11-16 16:18:03 - utter_ask_location
+2018-11-16 16:18:03 Wo ist das passiert?
+2018-11-16 16:18:03 - action_listen
+
+2018-11-16 16:18:07 *inform
+2018-11-16 16:18:07 [zuhause](location:zuhause)
+2018-11-16 16:18:07 slot{location: zuhause}
+2018-11-16 16:18:07 - action_finalise
+2018-11-16 16:18:07 - action_listen
+
+2018-11-16 16:18:27 *greet
+2018-11-16 16:18:27 schade
+2018-11-16 16:18:27 - utter_goodbye
+2018-11-16 16:18:27 Alles Gute und auf Wiederhören.
+2018-11-16 16:18:27 - action_listen
+
+2018-11-16 16:22:41 *greet
+2018-11-16 16:22:41 Hey
+2018-11-16 16:22:41 - utter_greet
+2018-11-16 16:22:41 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-16 16:22:41 - action_listen
+
+2018-11-16 16:22:50 *inform
+2018-11-16 16:22:50 Mein [Fahrrad](object:fahrrad) ist wg
+2018-11-16 16:22:50 slot{object: fahrrad}
+2018-11-16 16:22:50 - utter_ask
+2018-11-16 16:22:50 Womit genau kann ich ihnen helfen?
+2018-11-16 16:22:50 - action_listen
+
+2018-11-19 10:20:24 *greet
+2018-11-19 10:20:24 Hey
+2018-11-19 10:20:25 - utter_proceed
+2018-11-19 10:20:25 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-19 10:20:25 - action_listen
+
+2018-11-19 10:20:40 *restart
+2018-11-19 10:20:40 /restart
+2018-11-19 10:20:40 - action_restart
+2018-11-19 10:20:40 Restarted
+2018-11-19 10:20:40 - action_listen
+
+2018-11-19 10:20:45 *greet
+2018-11-19 10:20:45 Hey
+2018-11-19 10:20:45 - utter_greet
+2018-11-19 10:20:45 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-19 10:20:45 - action_listen
+
+2018-11-19 10:20:59 *inform
+2018-11-19 10:20:59 Mein [Fahrrad](object:fahrrad) wurde geklaut
+2018-11-19 10:20:59 slot{object: fahrrad}
+2018-11-19 10:20:59 - utter_ask
+2018-11-19 10:20:59 Womit genau kann ich ihnen helfen?
+2018-11-19 10:20:59 - action_listen
+
+2018-11-19 10:34:01 *inform
+2018-11-19 10:34:01 Mein [Fahrrad](object:fahrrad) wurde mir [gestohlen](case:Diebstahl)
+2018-11-19 10:34:01 slot{case: Diebstahl}
+2018-11-19 10:34:01 slot{object: fahrrad}
+2018-11-19 10:34:01 - utter_proceed
+2018-11-19 10:34:01 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-19 10:34:01 - action_listen
+
+2018-11-19 10:34:27 *confirm
+2018-11-19 10:34:27 gerne gemeinsam
+2018-11-19 10:34:27 - utter_ask_no
+2018-11-19 10:34:27 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-19 10:34:27 - action_listen
+
+2018-11-19 10:34:36 *inform
+2018-11-19 10:34:36 [45938](policy_no:45938)
+2018-11-19 10:34:36 slot{policy_no: 45938}
+2018-11-19 10:34:36 - utter_ask_birthday
+2018-11-19 10:34:36 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-19 10:34:36 - action_listen
+
+2018-11-19 10:34:48 *greet
+2018-11-19 10:34:48 [3.4.1967](birthdate:3.4.1967)
+2018-11-19 10:34:48 slot{birthdate: 3.4.1967}
+2018-11-19 10:34:50 - action_check_membership
+2018-11-19 10:34:50 - action_listen
+
+2018-11-19 10:39:26 *greet
+2018-11-19 10:39:26 Hey
+2018-11-19 10:39:28 - action_check_membership
+2018-11-19 10:39:28 slot{policy_no: 45938}
+2018-11-19 10:39:28 slot{policy: Hausratsversicherung}
+2018-11-19 10:39:28 Ich konnte ihre Police finden unter der ID 45938 finden
+2018-11-19 10:39:28 - action_listen
+
+2018-11-19 10:39:58 *greet
+2018-11-19 10:39:58 cool
+2018-11-19 10:40:00 - action_check_membership
+2018-11-19 10:40:00 slot{policy_no: 45938}
+2018-11-19 10:40:00 slot{policy: Hausratsversicherung}
+2018-11-19 10:40:00 Ich konnte ihre Police finden unter der ID 45938 finden
+2018-11-19 10:40:00 - action_listen
+
+2018-11-19 10:40:08 *restart
+2018-11-19 10:40:08 /restart
+2018-11-19 10:40:08 - action_restart
+2018-11-19 10:40:08 Restarted
+2018-11-19 10:40:08 - action_listen
+
+2018-11-19 10:40:15 *greet
+2018-11-19 10:40:15 Hey
+2018-11-19 10:40:16 - utter_greet
+2018-11-19 10:40:16 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-19 10:40:16 - action_listen
+
+2018-11-19 10:40:29 *inform
+2018-11-19 10:40:29 Mein [Fahrrad](object:fahrrad) wurde mir [geklaut](case:Diebstahl).
+2018-11-19 10:40:29 slot{case: Diebstahl}
+2018-11-19 10:40:29 slot{object: fahrrad}
+2018-11-19 10:40:29 - utter_proceed
+2018-11-19 10:40:29 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-19 10:40:29 - action_listen
+
+2018-11-19 10:40:37 *confirm
+2018-11-19 10:40:37 gerne gemeinsam
+2018-11-19 10:40:37 - utter_ask_no
+2018-11-19 10:40:37 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-19 10:40:37 - action_listen
+
+2018-11-19 10:40:43 *inform
+2018-11-19 10:40:43 [54928](policy_no:54928)
+2018-11-19 10:40:43 slot{policy_no: 54928}
+2018-11-19 10:40:44 - utter_ask_birthday
+2018-11-19 10:40:44 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-19 10:40:44 - action_listen
+
+2018-11-19 10:40:59 *inform
+2018-11-19 10:40:59 [4.3.1988](birthdate:4.3.1988)
+2018-11-19 10:40:59 slot{birthdate: 4.3.1988}
+2018-11-19 10:41:00 - action_check_membership
+2018-11-19 10:41:00 slot{policy_no: 54928}
+2018-11-19 10:41:00 slot{policy: Hausratsversicherung}
+2018-11-19 10:41:00 Ich konnte ihre Police finden unter der ID 54928 finden
+2018-11-19 10:41:00 - utter_ask_location
+2018-11-19 10:41:00 Wo ist das passiert?
+2018-11-19 10:41:00 - action_listen
+
+2018-11-19 10:41:07 *inform
+2018-11-19 10:41:07 [zuhause](location:zuhause)
+2018-11-19 10:41:07 slot{location: zuhause}
+2018-11-19 10:41:08 - action_finalise
+2018-11-19 10:41:08 Ich fasse zusammen: Es geht um einen Diebstahl. Es betrifft ihr fahrrad. Es ist zuhause passiert. Ihre Versicherungsnummer lautet 54928 und sie wurdem am 4.3.1988geboren.
+Wir werden ihr Anliegen bearbeiten und uns dann per E-Mail oder Post bei Ihnen melden.War das alles?
+2018-11-19 10:41:08 - action_listen
+
+2018-11-19 11:06:31 *inform
+2018-11-19 11:06:31 danke, das wars!
+2018-11-19 11:06:32 - utter_goodbye
+2018-11-19 11:06:32 Es hat mich gefreut. Bis bald.
+2018-11-19 11:06:32 - action_listen
+
+2018-11-19 11:06:45 *greet
+2018-11-19 11:06:45 chia
+2018-11-19 11:06:45 - utter_greet
+2018-11-19 11:06:45 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-19 11:06:45 - action_listen
+
+2018-11-20 16:16:42 *restart
+2018-11-20 16:16:42 /restart
+2018-11-20 16:16:42 - action_restart
+2018-11-20 16:16:42 Restarted
+2018-11-20 16:16:42 - action_listen
+
+2018-11-20 16:33:36 *greet
+2018-11-20 16:33:36 test
+2018-11-20 16:33:37 - utter_greet
+2018-11-20 16:33:37 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-20 16:33:37 - action_listen
+
+2018-11-20 16:33:53 *deny
+2018-11-20 16:33:53 Ich weiss nicht was das soll
+2018-11-20 16:33:54 - utter_apology
+2018-11-20 16:33:54 Es tut mir Leid, dass wir sie verärgert haben. Gerne verweise ich sie an einen unserer Mitarbeiter am Telefon.
+2018-11-20 16:33:54 - utter_connect
+2018-11-20 16:33:54 Bitte rufen sie unter 0800-3000-3003 an. Ihr Access-Token ist XYZ.
+2018-11-20 16:33:54 - utter_goodbye
+2018-11-20 16:33:54 Es hat mich gefreut. Bis bald.
+2018-11-20 16:33:54 - action_listen
+
+2018-11-20 16:34:02 *greet
+2018-11-20 16:34:02 Hey
+2018-11-20 16:34:02 - utter_greet
+2018-11-20 16:34:02 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-20 16:34:02 - action_listen
+
+2018-11-20 16:34:17 *inform
+2018-11-20 16:34:17 Ich möchte einen [Fahrraddiebstahl](case:Diebstahl) melden
+2018-11-20 16:34:17 slot{case: Diebstahl}
+2018-11-20 16:34:17 - utter_ask_object
+2018-11-20 16:34:17 Um welchen Gegenstand handelt es sich?
+2018-11-20 16:34:17 - action_listen
+
+2018-11-20 16:34:24 *inform
+2018-11-20 16:34:24 ein [Fahrrad](object:fahrrad)
+2018-11-20 16:34:24 slot{object: fahrrad}
+2018-11-20 16:34:25 - utter_proceed
+2018-11-20 16:34:25 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-20 16:34:25 - action_listen
+
+2018-11-20 16:34:33 *inform
+2018-11-20 16:34:33 lieber ein Mensch
+2018-11-20 16:34:33 - utter_ask_no
+2018-11-20 16:34:33 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-20 16:34:33 - action_listen
+
+2018-11-20 16:35:15 *inform
+2018-11-20 16:35:15 [47487](policy_no:47487)
+2018-11-20 16:35:15 slot{policy_no: 47487}
+2018-11-20 16:35:16 - utter_ask_birthday
+2018-11-20 16:35:16 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-20 16:35:16 - action_listen
+
+2018-11-20 16:35:21 *inform
+2018-11-20 16:35:21 [3.3.1999](birthdate:3.3.1999)
+2018-11-20 16:35:21 slot{birthdate: 3.3.1999}
+2018-11-20 16:35:22 - action_check_membership
+2018-11-20 16:35:22 slot{policy_no: 47487}
+2018-11-20 16:35:22 slot{policy: Hausratsversicherung}
+2018-11-20 16:35:22 Ich konnte ihre Police finden unter der ID 47487 finden
+2018-11-20 16:35:22 - utter_ask_location
+2018-11-20 16:35:22 Wo ist das passiert?
+2018-11-20 16:35:22 - action_listen
+
+2018-11-20 16:35:26 *inform
+2018-11-20 16:35:26 [zuhause](location:zuhause)
+2018-11-20 16:35:26 slot{location: zuhause}
+2018-11-20 16:35:26 - action_finalise
+2018-11-20 16:35:26 Ich fasse zusammen: Es geht um einen Diebstahl. Es betrifft ihr fahrrad. Es ist zuhause passiert. Ihre Versicherungsnummer lautet 47487 und sie wurdem am 3.3.1999geboren.
+Wir werden ihr Anliegen bearbeiten und uns dann per E-Mail oder Post bei Ihnen melden.War das alles?
+2018-11-20 16:35:26 - action_listen
+
+2018-11-20 16:35:32 *deny
+2018-11-20 16:35:32 ja danke
+2018-11-20 16:35:32 - utter_goodbye
+2018-11-20 16:35:32 Alles Gute und auf Wiederhören.
+2018-11-20 16:35:32 - action_restart
+2018-11-20 16:35:32 Restarted
+2018-11-20 16:35:32 - action_listen
+
+2018-11-20 16:35:36 *greet
+2018-11-20 16:35:36 chia
+2018-11-20 16:35:36 - utter_greet
+2018-11-20 16:35:36 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-20 16:35:36 - action_listen
+
+2018-11-21 10:04:24 *greet
+2018-11-21 10:04:24 Hey
+2018-11-21 10:04:25 - utter_ask
+2018-11-21 10:04:25 Und worum geht es genau?
+2018-11-21 10:04:25 - action_listen
+
+2018-11-21 10:04:37 *greet
+2018-11-21 10:04:37 [Diebstahl](case:diebstahl)
+2018-11-21 10:04:37 slot{case: diebstahl}
+2018-11-21 10:04:37 - utter_ask_object
+2018-11-21 10:04:37 Um welchen Gegenstand handelt es sich?
+2018-11-21 10:04:37 - action_listen
+
+2018-11-21 10:04:42 *greet
+2018-11-21 10:04:42 [Fahrrad](object:fahrrad)
+2018-11-21 10:04:42 slot{object: fahrrad}
+2018-11-21 10:04:43 - utter_proceed
+2018-11-21 10:04:43 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-21 10:04:43 - action_listen
+
+2018-11-21 10:04:48 *confirm
+2018-11-21 10:04:48 los gehts
+2018-11-21 10:04:48 - utter_ask_no
+2018-11-21 10:04:48 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-21 10:04:48 - action_listen
+
+2018-11-21 10:04:52 *inform
+2018-11-21 10:04:52 [45938](policy_no:45938)
+2018-11-21 10:04:52 slot{policy_no: 45938}
+2018-11-21 10:04:53 - utter_ask_birthday
+2018-11-21 10:04:53 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-21 10:04:53 - action_listen
+
+2018-11-21 10:05:03 *inform
+2018-11-21 10:05:03 [3.2.1988](birthdate:3.2.1988)
+2018-11-21 10:05:03 slot{birthdate: 3.2.1988}
+2018-11-21 10:05:03 - action_check_membership
+2018-11-21 10:05:04 - utter_ask_location
+2018-11-21 10:05:04 Wo ist das passiert?
+2018-11-21 10:05:04 - action_listen
+
+2018-11-21 10:05:30 *inform
+2018-11-21 10:05:30 [zuhause](location:zuhause)
+2018-11-21 10:05:30 slot{location: zuhause}
+2018-11-21 10:05:30 - action_finalise
+2018-11-21 10:05:30 - action_listen
+
+2018-11-21 14:20:39 *restart
+2018-11-21 14:20:39 /restart
+2018-11-21 14:20:39 - action_restart
+2018-11-21 14:20:39 Restarted
+2018-11-21 14:20:39 - action_listen
+
+2018-11-21 14:20:44 *greet
+2018-11-21 14:20:44 Hey
+2018-11-21 14:20:44 - utter_greet
+2018-11-21 14:20:44 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-21 14:20:44 - action_listen
+
+2018-11-21 14:20:56 *inform
+2018-11-21 14:20:56 Mein [Fahrrad](object:fahrrad) wurde mir [gestohlen](case:Diebstahl).
+2018-11-21 14:20:56 slot{case: Diebstahl}
+2018-11-21 14:20:56 slot{object: fahrrad}
+2018-11-21 14:20:56 - utter_proceed
+2018-11-21 14:20:56 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-21 14:20:56 - action_listen
+
+2018-11-21 14:21:03 *confirm
+2018-11-21 14:21:03 los gehts
+2018-11-21 14:21:04 - utter_ask_no
+2018-11-21 14:21:04 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-21 14:21:04 - action_listen
+
+2018-11-21 14:21:07 *inform
+2018-11-21 14:21:07 [45839](policy_no:45839)
+2018-11-21 14:21:07 slot{policy_no: 45839}
+2018-11-21 14:21:07 - utter_ask_birthday
+2018-11-21 14:21:07 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-21 14:21:08 - action_listen
+
+2018-11-21 14:21:27 *inform
+2018-11-21 14:21:27 [9.8.1999](birthdate:9.8.1999)
+2018-11-21 14:21:27 slot{birthdate: 9.8.1999}
+2018-11-21 14:21:27 - action_check_membership
+2018-11-21 14:21:28 - utter_ask_location
+2018-11-21 14:21:28 Wo ist das passiert?
+2018-11-21 14:21:28 - action_listen
+
+2018-11-21 14:21:58 *inform
+2018-11-21 14:21:58 [zuhause](location:zuhause)
+2018-11-21 14:21:58 slot{location: zuhause}
+2018-11-21 14:21:58 - action_finalise
+2018-11-21 14:21:58 - action_listen
+
+2018-11-21 14:22:15 *greet
+2018-11-21 14:22:15 danke
+2018-11-21 14:22:16 - utter_goodbye
+2018-11-21 14:22:16 Es hat mich gefreut. Bis bald.
+2018-11-21 14:22:16 - action_listen
+
+2018-11-21 14:57:43 *greet
+2018-11-21 14:57:43 Hey
+2018-11-21 14:57:44 - utter_greet
+2018-11-21 14:57:44 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-21 14:57:44 - action_listen
+
+2018-11-21 14:57:56 *inform
+2018-11-21 14:57:56 Ich möchte den [Diebstahl](case:diebstahl) meines [Fahrrads](object:Fahrrad) melden
+2018-11-21 14:57:56 slot{case: diebstahl}
+2018-11-21 14:57:56 slot{object: Fahrrad}
+2018-11-21 14:57:57 - utter_proceed
+2018-11-21 14:57:57 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-21 14:57:57 - action_listen
+
+2018-11-21 14:58:02 *inform
+2018-11-21 14:58:02 los geht es
+2018-11-21 14:58:02 - utter_ask_no
+2018-11-21 14:58:02 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-21 14:58:02 - action_listen
+
+2018-11-21 14:58:08 *inform
+2018-11-21 14:58:08 [48298](policy_no:48298)
+2018-11-21 14:58:08 slot{policy_no: 48298}
+2018-11-21 14:58:08 - utter_ask_birthday
+2018-11-21 14:58:08 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-21 14:58:08 - action_listen
+
+2018-11-21 14:58:14 *greet
+2018-11-21 14:58:14 [4.4.1977](birthdate:4.4.1977)
+2018-11-21 14:58:14 slot{birthdate: 4.4.1977}
+2018-11-21 14:58:14 - action_check_membership
+2018-11-21 14:58:14 - action_listen
+
+2018-11-21 15:50:20 *restart
+2018-11-21 15:50:20 /restart
+2018-11-21 15:50:20 - action_restart
+2018-11-21 15:50:20 Restarted
+2018-11-21 15:50:20 - action_listen
+
+2018-11-21 15:50:24 *greet
+2018-11-21 15:50:24 Hey
+2018-11-21 15:50:25 - utter_greet
+2018-11-21 15:50:25 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-21 15:50:25 - action_listen
+
+2018-11-21 15:50:37 *inform
+2018-11-21 15:50:37 Mein [Fahrrad](object:fahrrad) wurde mir [gestohlen](case:Diebstahl)
+2018-11-21 15:50:37 slot{case: Diebstahl}
+2018-11-21 15:50:37 slot{object: fahrrad}
+2018-11-21 15:50:38 - utter_proceed
+2018-11-21 15:50:38 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-21 15:50:38 - action_listen
+
+2018-11-21 15:50:43 *inform
+2018-11-21 15:50:43 auf geht es
+2018-11-21 15:50:43 - utter_ask_no
+2018-11-21 15:50:43 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-21 15:50:43 - action_listen
+
+2018-11-21 15:50:47 *inform
+2018-11-21 15:50:47 [43029](policy_no:43029)
+2018-11-21 15:50:47 slot{policy_no: 43029}
+2018-11-21 15:50:47 - utter_ask_birthday
+2018-11-21 15:50:47 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-21 15:50:47 - action_listen
+
+2018-11-21 15:51:03 *inform
+2018-11-21 15:51:03 [10.8.1988](birthdate:10.8.1988)
+2018-11-21 15:51:03 slot{birthdate: 10.8.1988}
+2018-11-21 15:51:04 - action_check_membership
+2018-11-21 15:51:04 - utter_ask_location
+2018-11-21 15:51:04 Wo ist das passiert?
+2018-11-21 15:51:04 - action_listen
+
+2018-11-21 15:51:07 *inform
+2018-11-21 15:51:07 [zuhause](location:zuhause)
+2018-11-21 15:51:07 slot{location: zuhause}
+2018-11-21 15:51:07 - action_finalise
+2018-11-21 15:51:07 - action_listen
+
+2018-11-21 16:47:34 *restart
+2018-11-21 16:47:34 /restart
+2018-11-21 16:47:34 - action_restart
+2018-11-21 16:47:34 Restarted
+2018-11-21 16:47:34 - action_listen
+
+2018-11-21 16:47:38 *greet
+2018-11-21 16:47:38 Hey
+2018-11-21 16:47:39 - utter_greet
+2018-11-21 16:47:39 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-21 16:47:39 - action_listen
+
+2018-11-21 16:47:47 *inform
+2018-11-21 16:47:47 Mein [Fahrrad](object:fahrrad) wurde [gestohlen](case:Diebstahl)
+2018-11-21 16:47:47 slot{case: Diebstahl}
+2018-11-21 16:47:47 slot{object: fahrrad}
+2018-11-21 16:47:48 - utter_proceed
+2018-11-21 16:47:48 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-21 16:47:48 - action_listen
+
+2018-11-21 16:47:53 *confirm
+2018-11-21 16:47:53 gerne
+2018-11-21 16:47:53 - utter_ask_no
+2018-11-21 16:47:53 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-21 16:47:53 - action_listen
+
+2018-11-21 16:48:18 *inform
+2018-11-21 16:48:18 [34980](policy_no:34980)
+2018-11-21 16:48:18 slot{policy_no: 34980}
+2018-11-21 16:48:18 - utter_ask_birthday
+2018-11-21 16:48:18 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-21 16:48:18 - action_listen
+
+2018-11-21 16:48:25 *inform
+2018-11-21 16:48:25 [3.4.1966](birthdate:3.4.1966)
+2018-11-21 16:48:25 slot{birthdate: 3.4.1966}
+2018-11-21 16:48:25 - action_check_membership
+2018-11-21 16:48:25 slot{policy_no: 34980}
+2018-11-21 16:48:25 slot{policy: Hausratsversicherung}
+2018-11-21 16:48:25 Ich konnte ihre Police finden unter der ID 34980 finden
+2018-11-21 16:48:25 - utter_ask_location
+2018-11-21 16:48:25 Wo ist das passiert?
+2018-11-21 16:48:25 - action_listen
+
+2018-11-21 16:51:19 *inform
+2018-11-21 16:51:19 [zuhause](location:zuhause)
+2018-11-21 16:51:19 slot{location: zuhause}
+2018-11-21 16:51:19 - action_finalise
+2018-11-21 16:51:19 Ich fasse zusammen: Es geht um einen Diebstahl. Es betrifft ihr Fahrrad. Es ist zuhause passiert.Ihre Versicherungsnummer lautet 34980 und sie wurdem am 3.4.1966 geboren
+.Wir werden ihr Anliegen bearbeiten und uns dann per E-Mail oder Post bei Ihnen melden. War das alles?
+2018-11-21 16:51:19 - action_listen
+
+2018-11-21 17:13:23 *restart
+2018-11-21 17:13:23 /restart
+2018-11-21 17:13:23 - action_restart
+2018-11-21 17:13:23 Restarted
+2018-11-21 17:13:23 - action_listen
+
+2018-11-21 17:13:32 *greet
+2018-11-21 17:13:32 Hey
+2018-11-21 17:13:32 - utter_greet
+2018-11-21 17:13:32 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-21 17:13:32 - action_listen
+
+2018-11-21 17:13:45 *inform
+2018-11-21 17:13:45 Mein [Velo](object:Fahrrad) wurde gstohlen!
+2018-11-21 17:13:45 slot{object: Fahrrad}
+2018-11-21 17:13:45 - utter_ask
+2018-11-21 17:13:45 Womit genau kann ich ihnen helfen?
+2018-11-21 17:13:45 - action_listen
+
+2018-11-21 17:15:00 *inform
+2018-11-21 17:15:00 Einem [Diebstahl](case:diebstahl)....
+2018-11-21 17:15:00 slot{case: diebstahl}
+2018-11-21 17:15:00 - utter_proceed
+2018-11-21 17:15:00 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-21 17:15:00 - action_listen
+
+2018-11-21 17:15:11 *confirm
+2018-11-21 17:15:11 gerne
+2018-11-21 17:15:11 - utter_ask_no
+2018-11-21 17:15:11 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-21 17:15:11 - action_listen
+
+2018-11-21 17:15:15 *inform
+2018-11-21 17:15:15 [44444](policy_no:44444)
+2018-11-21 17:15:15 slot{policy_no: 44444}
+2018-11-21 17:15:15 - action_listen
+
+2018-11-21 17:16:43 *confirm
+2018-11-21 17:16:43 d
+2018-11-21 17:16:43 - action_listen
+
+2018-11-21 17:19:20 *greet
+2018-11-21 17:19:20 Hey
+2018-11-21 17:19:21 - action_default_fallback
+2018-11-21 17:19:21 Revert (go back one action)
+2018-11-21 17:19:21 Es tut mir Leid, aber das habe ich leider nicht verstanden. Können sie es noch einmal in anderen Worten wiederholen?
+2018-11-21 17:19:21 - action_listen
+
+2018-11-21 17:19:32 *inform
+2018-11-21 17:19:32 [49898](policy_no:49898)
+2018-11-21 17:19:32 slot{policy_no: 49898}
+2018-11-21 17:19:33 - action_check_membership
+2018-11-21 17:19:33 slot{policy_no: 49898}
+2018-11-21 17:19:33 slot{policy: Hausratsversicherung}
+2018-11-21 17:19:33 Ich konnte ihre Police finden unter der ID 49898 finden
+2018-11-21 17:19:33 - utter_ask_location
+2018-11-21 17:19:33 Wo ist das passiert?
+2018-11-21 17:19:33 - action_listen
+
+2018-11-21 17:19:43 *inform
+2018-11-21 17:19:43 [zuhause](location:zuhause)
+2018-11-21 17:19:43 slot{location: zuhause}
+2018-11-21 17:19:44 - action_finalise
+2018-11-21 17:19:44 Ich fasse zusammen: Es geht um einen Diebstahl. Es betrifft ihr Fahrrad. Es ist zuhause passiert. Ihre Versicherungsnummer lautet 49898 und sie wurdem am None geboren.
+Wir werden ihr Anliegen bearbeiten und uns dann per E-Mail oder Post bei Ihnen melden.
+
+War das alles?
+2018-11-21 17:19:44 - action_listen
+
+2018-11-21 17:20:27 *deny
+2018-11-21 17:20:27 ja danke
+2018-11-21 17:20:27 - utter_goodbye
+2018-11-21 17:20:27 Es hat mich gefreut. Bis bald.
+2018-11-21 17:20:27 - action_restart
+2018-11-21 17:20:27 Restarted
+2018-11-21 17:20:27 - action_listen
+
+2018-11-21 17:20:33 *greet
+2018-11-21 17:20:33 ciao
+2018-11-21 17:20:33 - utter_greet
+2018-11-21 17:20:33 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-21 17:20:33 - action_listen
+
+2018-11-22 09:00:31 *inform
+2018-11-22 09:00:31 Mein [FAhrrad](object:fahrrad) wurde wir [geklaut](case:Diebstahl)!
+2018-11-22 09:00:31 slot{case: Diebstahl}
+2018-11-22 09:00:31 slot{object: fahrrad}
+2018-11-22 09:00:32 - utter_proceed
+2018-11-22 09:00:32 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-22 09:00:32 - action_listen
+
+2018-11-22 09:00:51 *confirm
+2018-11-22 09:00:51 gerne zusammen
+2018-11-22 09:00:53 - utter_ask_no
+2018-11-22 09:00:53 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-22 09:00:53 - action_listen
+
+2018-11-22 09:01:00 *inform
+2018-11-22 09:01:00 [43928](policy_no:43928)
+2018-11-22 09:01:00 slot{policy_no: 43928}
+2018-11-22 09:01:00 - utter_ask_birthday
+2018-11-22 09:01:00 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-22 09:01:00 - action_listen
+
+2018-11-22 09:01:07 *inform
+2018-11-22 09:01:07 [1.1.1955](birthdate:1.1.1955)
+2018-11-22 09:01:07 slot{birthdate: 1.1.1955}
+2018-11-22 09:01:08 - action_check_membership
+2018-11-22 09:01:08 slot{policy_no: 43928}
+2018-11-22 09:01:08 slot{policy: Hausratsversicherung}
+2018-11-22 09:01:08 Ich konnte ihre Police finden unter der ID 43928 finden
+2018-11-22 09:01:08 - utter_ask_location
+2018-11-22 09:01:08 Wo ist das passiert?
+2018-11-22 09:01:08 - action_listen
+
+2018-11-22 09:02:55 *inform
+2018-11-22 09:02:55 Das war in der Seebergerstr. 100, [10999](policy_no:10999) Zürich.
+2018-11-22 09:02:55 slot{policy_no: 10999}
+2018-11-22 09:02:55 - action_default_fallback
+2018-11-22 09:02:55 Revert (go back one action)
+2018-11-22 09:02:55 Es tut mir Leid, aber das habe ich leider nicht verstanden. Können sie es noch einmal in anderen Worten wiederholen?
+2018-11-22 09:02:55 - action_listen
+
+2018-11-22 09:03:10 *inform
+2018-11-22 09:03:10 Das war bei mir [zuhause](location:zuhause)
+2018-11-22 09:03:10 slot{location: zuhause}
+2018-11-22 09:03:10 - action_finalise
+2018-11-22 09:03:10 Ich fasse zusammen: Es geht um einen Diebstahl. Es betrifft ihr Fahrrad. Es ist zuhause passiert. Ihre Versicherungsnummer lautet 43928 und sie wurdem am 1.1.1955 geboren.
+Wir werden ihr Anliegen bearbeiten und uns dann per E-Mail oder Post bei Ihnen melden.
+
+War das alles?
+2018-11-22 09:03:10 - action_listen
+
+2018-11-22 09:06:20 *confirm
+2018-11-22 09:06:20 ja das wars
+2018-11-22 09:06:21 - utter_goodbye
+2018-11-22 09:06:21 Es hat mich gefreut. Bis bald.
+2018-11-22 09:06:21 - action_restart
+2018-11-22 09:06:21 Restarted
+2018-11-22 09:06:21 - action_listen
+
+2018-11-22 09:06:25 *greet
+2018-11-22 09:06:25 chia
+2018-11-22 09:06:25 - utter_greet
+2018-11-22 09:06:25 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-22 09:06:25 - action_listen

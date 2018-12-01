@@ -1,0 +1,10 @@
+###rasa stack
+rasa_nlu==0.13.8
+rasa_core==0.12.2
+
+###extension rasa-nlu: spacy sklearn  https://github.com/RasaHQ/rasa_nlu/blob/0.11.x/alt_requirements/requirements_spacy_sklearn.txt
+spacy==2.0.5
+scikit-learn==0.19.1
+sklearn-crfsuite==0.3.6
+scipy==1.0.0
+

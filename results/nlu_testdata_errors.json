@@ -1,0 +1,140 @@
+{
+    "intent_errors": [
+        {
+            "text": "23.09.1970",
+            "intent": "inform",
+            "intent_prediction": {
+                "name": "deny",
+                "confidence": 0.24109151629210446
+            }
+        },
+        {
+            "text": "Ghetto Schlieren",
+            "intent": "inform",
+            "intent_prediction": {
+                "name": "deny",
+                "confidence": 0.3733905406486557
+            }
+        },
+        {
+            "text": "Fahrrad",
+            "intent": "inform",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.4665409139153119
+            }
+        },
+        {
+            "text": "Diebstahl",
+            "intent": "inform",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.34685089947389486
+            }
+        },
+        {
+            "text": "4.4.1977",
+            "intent": "inform",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.30078461519333344
+            }
+        },
+        {
+            "text": "3.4.1967",
+            "intent": "inform",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.4171732608770496
+            }
+        },
+        {
+            "text": "3.5.1989",
+            "intent": "inform",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.43438169798631604
+            }
+        },
+        {
+            "text": "cool",
+            "intent": "confirm",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.27576757857809614
+            }
+        },
+        {
+            "text": "ja danke",
+            "intent": "confirm",
+            "intent_prediction": {
+                "name": "deny",
+                "confidence": 0.4496185315805948
+            }
+        },
+        {
+            "text": "gogogo",
+            "intent": "confirm",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.4376621907992379
+            }
+        },
+        {
+            "text": "los geht es",
+            "intent": "confirm",
+            "intent_prediction": {
+                "name": "inform",
+                "confidence": 0.40875225968344037
+            }
+        },
+        {
+            "text": "auf geht es",
+            "intent": "confirm",
+            "intent_prediction": {
+                "name": "inform",
+                "confidence": 0.29565504747516713
+            }
+        },
+        {
+            "text": "danke, das wars!",
+            "intent": "confirm",
+            "intent_prediction": {
+                "name": "inform",
+                "confidence": 0.3029032523407589
+            }
+        },
+        {
+            "text": "Ich weiss nicht was das soll",
+            "intent": "mood_unhappy",
+            "intent_prediction": {
+                "name": "deny",
+                "confidence": 0.5643342759607894
+            }
+        },
+        {
+            "text": ":face_with_rolling_eyes:",
+            "intent": "mood_unhappy",
+            "intent_prediction": {
+                "name": "inform",
+                "confidence": 0.6574966817837359
+            }
+        },
+        {
+            "text": "moment",
+            "intent": "wait",
+            "intent_prediction": {
+                "name": "greet",
+                "confidence": 0.38823699351865143
+            }
+        },
+        {
+            "text": "lieber ein Mensch",
+            "intent": "deny",
+            "intent_prediction": {
+                "name": "inform",
+                "confidence": 0.39630193633201205
+            }
+        }
+    ]
+}

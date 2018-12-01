@@ -1,0 +1,7 @@
+__pycache__/
+.vscode/
+reveals.js/
+config_cloud_services.yaml
+setup
+slides_readme.html
+slides.md

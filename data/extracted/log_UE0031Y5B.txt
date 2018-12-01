@@ -1,0 +1,94 @@
+
+User-Name in Database: UE0031Y5B
+
+2018-11-09 13:18:02 - action_listen
+
+2018-11-09 13:18:04 *greet
+2018-11-09 13:18:04 Hoi
+2018-11-09 13:18:05 - utter_greet
+2018-11-09 13:18:05 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-09 13:18:05 - action_listen
+
+2018-11-09 13:18:28 *inform
+2018-11-09 13:18:28 Gestern ist mein [Fahrrad](object:fahrrad) [geklaut](case:Diebstahl) worde
+!!!
+2018-11-09 13:18:28 slot{case: Diebstahl}
+2018-11-09 13:18:28 slot{object: fahrrad}
+2018-11-09 13:18:28 - utter_proceed
+2018-11-09 13:18:28 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-09 13:18:28 - action_listen
+
+2018-11-09 13:18:38 *goodbye
+2018-11-09 13:18:38 ok
+2018-11-09 13:18:38 - utter_ask_no
+2018-11-09 13:18:38 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-09 13:18:38 - action_listen
+
+2018-11-09 13:18:50 *deny
+2018-11-09 13:18:50 weiss ich nicht
+2018-11-09 13:18:50 - utter_ask_again
+2018-11-09 13:18:50 Sorry, aber ich brauche diese Information um weitermachen zu können.
+2018-11-09 13:18:50 - action_listen
+
+2018-11-09 13:19:02 *greet
+2018-11-09 13:19:02 moment
+2018-11-09 13:19:02 - utter_greet
+2018-11-09 13:19:02 Hallo, herzlich willkommen bei Ihrer AXA Winterthur. Mein Name ist Beat Bot, was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+2018-11-09 13:19:02 - action_listen
+
+2018-11-09 13:19:09 *inform
+2018-11-09 13:19:09 also: [55534](policy_no:55534)
+2018-11-09 13:19:09 slot{policy_no: 55534}
+2018-11-09 13:19:09 - utter_ask
+2018-11-09 13:19:09 Womit genau kann ich ihnen helfen?
+2018-11-09 13:19:09 - action_listen
+
+2018-11-09 13:19:23 *inform
+2018-11-09 13:19:23 :face_with_rolling_eyes:
+2018-11-09 13:19:23 - utter_ask_object
+2018-11-09 13:19:23 Um welchen Gegenstand handelt es sich?
+2018-11-09 13:19:23 - action_listen
+
+2018-11-09 13:19:28 *inform
+2018-11-09 13:19:28 Gestern ist mein [Fahrrad](object:fahrrad) [geklaut](case:Diebstahl) worde
+2018-11-09 13:19:28 slot{case: Diebstahl}
+2018-11-09 13:19:28 slot{object: fahrrad}
+2018-11-09 13:19:28 - utter_proceed
+2018-11-09 13:19:28 Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder möchten sie lieber mit einem Menschen telefonieren?
+2018-11-09 13:19:28 - action_listen
+
+2018-11-09 13:19:36 *greet
+2018-11-09 13:19:36 gogogo
+2018-11-09 13:19:36 - utter_ask_no
+2018-11-09 13:19:36 Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+2018-11-09 13:19:36 - action_listen
+
+2018-11-09 13:19:44 *inform
+2018-11-09 13:19:44 also: [55534](policy_no:55534)
+2018-11-09 13:19:44 slot{policy_no: 55534}
+2018-11-09 13:19:44 - utter_ask_birthday
+2018-11-09 13:19:44 Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum nennen?
+2018-11-09 13:19:44 - action_listen
+
+2018-11-09 13:19:54 *inform
+2018-11-09 13:19:54 [01.01.1970](birthdate:01.01.1970)
+2018-11-09 13:19:54 slot{birthdate: 01.01.1970}
+2018-11-09 13:19:55 - action_check_membership
+2018-11-09 13:19:55 slot{policy_no: 55534}
+2018-11-09 13:19:55 slot{policy: Hausratsversicherung}
+2018-11-09 13:19:55 Ich konnte ihre Police finden unter der ID 55534 finden
+2018-11-09 13:19:55 - utter_ask_location
+2018-11-09 13:19:55 Wo ist das passiert?
+2018-11-09 13:19:55 - action_listen
+
+2018-11-09 13:20:12 *deny
+2018-11-09 13:20:12 Ghetto Schlieren
+2018-11-09 13:20:12 - utter_apology
+2018-11-09 13:20:12 Es tut mir Leid, dass wir sie verärgert haben. Gerne verweise ich sie an einen unserer Mitarbeiter am Telefon.
+2018-11-09 13:20:12 - utter_connect
+2018-11-09 13:20:12 Bitte rufen sie unter 0800-3000-3003 an. Ihr Access-Token ist XYZ.
+2018-11-09 13:20:12 - utter_goodbye
+2018-11-09 13:20:12 Es hat mich gefreut. Bis bald.
+2018-11-09 13:20:12 - action_restart
+2018-11-09 13:20:12 Restarted
+2018-11-09 13:20:12 - action_listen
