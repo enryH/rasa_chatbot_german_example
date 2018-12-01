@@ -2,7 +2,7 @@
 
 ## Anwedungsbeispiel: Fahrraddiebstahl melden
 
-> Case: Dein Fahrrad wurde bei dir zuhause gestohlen und du möchtest das deiner Versicherung mitteilen.
+> [Case von der RASA-Website](https://www.rasa.com/customers/helvetia-claims): Dein Fahrrad wurde bei dir zuhause gestohlen und du möchtest das deiner Versicherung mitteilen.
 
 ![Helvetia Fahrraddiebstahl-Usecase](Figures/rasa_helvetia_example_bikeinsurance.png)
 
@@ -411,11 +411,11 @@ docker build . -t rasabot
 ```
 gcloud auth configure-docker
 
-docker tag rasabot eu.gcr.io/rasaonflex/rasaonflex-image:tag1 && docker push eu.gcr.io/rasaonflex/rasaonflex-image:tag1
+docker tag rasabot eu.gcr.io/rasaonflex/rasaonflex-image:tag2 && docker push eu.gcr.io/rasaonflex/rasaonflex-image:tag2
 ```
 - deploy app with created image
 ```
-gcloud app deploy --image-url eu.gcr.io/rasaonflex/rasaonflex-image:tag1
+gcloud app deploy --image-url eu.gcr.io/rasaonflex/rasaonflex-image:tag2
 ```
 
 ```
