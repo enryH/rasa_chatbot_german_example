@@ -1,0 +1,115 @@
+%YAML 1.1
+---
+actions:
+- utter_chitchat
+- utter_url
+- utter_greet
+- utter_ask_again
+- action_check_membership
+- utter_ask_birthday
+- utter_ask_no
+- utter_ask_location
+- utter_skip
+- utter_proceed
+- utter_out_of_scope
+- utter_ask_object
+- utter_affirm
+- utter_selbstbeteiligung
+- action_finalise
+- utter_ask
+- utter_goodbye
+- action_listen
+- utter_apology
+- action_default_fallback
+- utter_connect
+config:
+  store_entities_as_slots: true
+entities:
+- birthdate
+- location
+- object
+- case
+- policy_detail
+- policy
+- policy_no
+forms: []
+intents:
+- greet
+- other
+- confirm
+- inform
+- question
+- goodbye
+- mood_unhappy
+- deny
+- wait
+slots:
+  birthdate:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+  case:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+  location:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+  object:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+  policy:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+  policy_detail:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+  policy_no:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_affirm:
+  - text: Okay
+  utter_apology:
+  - text: Es tut mir Leid, dass wir sie verärgert haben. Gerne verweise ich sie an
+      einen unserer Mitarbeiter am Telefon.
+  utter_ask:
+  - text: Womit genau kann ich ihnen helfen?
+  - text: Und worum geht es genau?
+  utter_ask_again:
+  - text: Sorry, aber ich brauche diese Information um weitermachen zu können.
+  utter_ask_birthday:
+  - text: Okay. Dann folgt jetzt eine Sicherheitsfrage. Können sie mir bitte ihr Geburtsdatum
+      nennen?
+  utter_ask_location:
+  - text: Wo ist das passiert?
+  utter_ask_no:
+  - text: Super. Wie lautet ihre fünfstellige Versicherungsnummer?
+  utter_ask_object:
+  - text: Um welchen Gegenstand handelt es sich?
+  utter_chitchat:
+  - text: Ja... und?
+  - text: Schön. Wollen wir weitermachen?
+  - text: Ich helfe die nur beim aufnehmen von Versicherungsschäden. Also?
+  utter_connect:
+  - text: Bitte rufen sie unter 0800-3000-3003 an. Ihr Access-Token ist XYZ.
+  utter_default:
+  - text: Es tut mir Leid, aber das habe ich leider nicht verstanden. Können sie es
+      noch einmal in anderen Worten wiederholen?
+  utter_goodbye:
+  - text: Es hat mich gefreut. Bis bald.
+  - text: Alles Gute und auf Wiederhören.
+  utter_greet:
+  - text: Hallo, herzlich willkommen bei Ihrer Versicherung. Mein Name ist Beat Bot,
+      was kann ich für Sie tun? (z.Z. leider nur einen Fahrraddiebstahl aufnehmen)
+  utter_out_of_scope:
+  - text: Ich fürchte, dass ich für ihr Anliegen nicht vorprogrammiert wurde. Kann
+      ich ihnen mit etwas anderem helfen?
+  utter_proceed:
+  - text: Ich kann den Fall gerne aufnehmen. Sollen wir das gemeinsam erledigen oder
+      möchten sie lieber mit einem Menschen telefonieren?
+  utter_selbstbeteiligung:
+  - text: Ihre Selbstbeteiligung beträgt 150 CHF.
+  utter_skip:
+  - text: Ich habe es leider nicht verstanden. Mir machen ohne diese Information weiter.
+  utter_url:
+  - text: 'Die Policy-Detail kannst du unter einsehen: www.policy_of_customer.ch (to
+      adapt dependent on policy-key-word)'

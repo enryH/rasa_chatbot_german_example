@@ -186,6 +186,10 @@ Neuste Version: [![PyPI version](https://img.shields.io/pypi/v/rasa_core.svg)](h
 ## Trainingsdialogue
 Rasa Core, d.h. das Dialog-Ablauf-Model, wird auf Basis von sogenannten Stories trainiert. Ein Trainingsdialog besteht aus Bot-Aktionen sowie User-Intents und Entities. Die Trainingsdaten für das Dialog-Model sind damit abstrahierte sprachliche Einheiten, die zur Laufzeit des Bots vom NLU-Modell bereitgestellt werden.
 
+Das [Dateiformat der Stories](https://rasa.com/docs/core/0.12.2/stories/), erlaubt es mehrere Stories in einer zusammenzufassen, dank 
+- [checkpoints](https://rasa.com/docs/core/0.12.2/stories/#checkpoints)
+- [OR statements](https://rasa.com/docs/core/0.12.2/stories/#or-statements)
+
 ## Rasa Core Model trainieren
 Um ein Modell abstrakt zu trainieren, werden 
     
@@ -415,11 +419,18 @@ docker tag rasabot eu.gcr.io/rasaonflex/rasaonflex-image:tag2 && docker push eu.
 ```
 - deploy app with created image
 ```
-gcloud app deploy --image-url eu.gcr.io/rasaonflex/rasaonflex-image:tag2
+gcloud app deploy --image-url eu.gcr.io/rasaonflex/rasaonflex-image:tag2  --version latest4321
 ```
 
 ```
 gcloud app deploy actionserver/custom-actions-app.yaml --version latest1234
+```
+
+When you want to stop the version, type
+
+```
+gcloud app versions stop latest4321
+gcloud app versions stop latest1234
 ```
 
 # Warum RASA
